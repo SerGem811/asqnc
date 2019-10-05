@@ -1,0 +1,333 @@
+/* ======
+   2. General
+      ====== */
+html {
+  position: relative;
+  min-height: 100%;
+  background-color: #f2f5f7;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-size: 14px;
+  background-color: #f2f5f7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+}
+
+h1 {
+  line-height: 43px;
+  font-size: 36px;
+}
+
+h2 {
+  line-height: 35px;
+  font-size: 30px;
+}
+
+h3 {
+  line-height: 30px;
+  font-size: 24px;
+}
+
+h4 {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+* {
+  outline: none !important;
+}
+
+a:hover, a:active, a:focus {
+  outline: 0;
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 500;
+}
+
+/* Page titles */
+.header-title {
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.page-title-box {
+  padding: 25px 0;
+}
+
+.page-title-box .page-title {
+  font-size: 22px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.page-title-box .breadcrumb {
+  font-size: 13px;
+  margin-bottom: 0;
+  padding: 2px 0;
+  background-color: transparent;
+}
+
+.page-wrapper {
+  padding-top: 84px;
+}
+
+.page-content {
+  width: 100%;
+  position: relative;
+  min-height: calc(100vh - 84px);
+  padding: 0 15px 60px 15px;
+}
+.school-name {
+	font-size: 16px;
+}
+.legendBox {
+    min-width: 20px;
+    min-height: 20px;
+    width: 20px;
+    height: 20px;
+    border: thin solid #333;
+    clear: both;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.q_legend_info {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.q_category_details {
+	margin-bottom: 40px;
+	margin-top: 15px;
+}
+.legend-title-col {
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.bargraph {
+    float: left;
+    height: 20px;
+    padding-top: 4px;
+	position: relative;
+	margin-bottom: 25px;
+}
+.graph-no {
+    text-align: center;
+    font-size: .8em;
+    position: absolute;
+	left: 50%;
+	margin-left: -15px;
+	bottom: -20px;
+	width: 30px;
+}
+.row-h-bar-chart {
+	padding-top:25px;
+	padding-bottom: 7px;
+	border-top: 1px solid #ccc;
+}
+.row-h-bar-chart p.info {
+	margin-bottom: 0px;
+    margin-left: 55px;
+}
+.q_title {
+	border-top: 1px solid #ccc;
+	padding-top:25px;
+	padding-bottom: 7px;
+}
+td.reports a {
+	color:#333;
+	font-size: 20px;
+	margin-right: 8px;
+}
+.agree-percent-row {
+	border-top: 1px solid #333;
+	border-left:1px solid #333;
+	border-right:1px solid #333;
+}
+.agree-percent-row .q_sub_title {
+	padding: 15px 0;
+	margin: 0px;
+}
+.percent-box {
+    background-color: #538dd5;
+	border-left:1px solid #333;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    height: 100%;
+    align-self: center;
+	font-weight:700;
+}
+.q_category_details .col-12:last-child .agree-percent-row {
+	border-bottom: 1px solid #333;
+}
+
+/*-- success --*/
+
+.bg-success {
+  background-color: $success !important;
+}
+.bg-success-dark {
+  background-color: darken($success, 15%);
+}
+.bg-success-light {
+  background-color: lighten($success,15%);
+}
+.bg-soft-success{
+  background-color: rgba($success, 0.18) !important;
+  color: $success !important;
+}
+/*-- Info --*/
+
+.bg-info {
+  background-color: $info !important;
+}
+.bg-info-dark {
+  background-color: darken($info, 15%);
+}
+.bg-info-light {
+  background-color: lighten($info,15%);
+}
+.bg-soft-info{
+  background-color: rgba($info, 0.18) !important;
+  color: $info !important;
+}
+
+/*-- Warning --*/
+
+.bg-warning {
+  background-color: $warning !important;
+}
+.bg-warning-dark {
+  background-color: darken($warning, 15%);
+}
+.bg-warning-light {
+  background-color: lighten($warning,15%);
+}
+.bg-soft-warning{
+  background-color: rgba($warning, 0.18) !important;
+  color: $warning !important;
+}
+
+/*-- Danger --*/
+
+.bg-danger {
+  background-color: $danger !important;
+}
+.bg-danger-dark {
+  background-color: darken($danger, 15%);
+}
+.bg-danger-light {
+  background-color: lighten($danger,15%);
+}
+.bg-soft-danger{
+  background-color: rgba($danger, 0.18) !important;
+  color: $danger !important;
+}
+
+/*-- Purple --*/
+
+.bg-purple {
+  background-color: $purple !important;
+}
+.bg-purple-dark {
+  background-color: darken($purple, 15%);
+}
+.bg-purple-light {
+  background-color: lighten($purple,15%);
+}
+.bg-soft-purple{
+  background-color: rgba($purple, 0.18) !important;
+  color: $purple !important;
+}
+
+/*-- Pink --*/
+
+.bg-pink {
+  background-color: $pink !important;
+}
+.bg-pink-dark {
+  background-color: darken($pink, 15%);
+}
+.bg-pink-light {
+  background-color: lighten($pink,15%);
+}
+.bg-soft-pink{
+  background-color: rgba($pink, 0.18) !important;
+  color: $pink !important;
+}
+/*-- Dark --*/
+
+.bg-dark {
+  background-color: $dark !important;
+}
+.bg-dark-dark {
+  background-color: darken($dark, 15%);
+}
+.bg-dark-light {
+  background-color: lighten($dark,15%);
+}
+.bg-soft-dark{
+  background-color: rgba($dark, 0.18) !important;
+  color: $dark !important;
+}
+
+/*-- Secondary --*/
+
+.bg-secondary {
+  background-color: $secondary !important;
+}
+.bg-secondary-dark {
+  background-color: darken($secondary, 15%);
+}
+.bg-secondary-light {
+  background-color: lighten($secondary,15%);
+}
+.bg-soft-secondary{
+  background-color: rgba($secondary, 0.18) !important;
+  color: $secondary !important;
+}
+
+/*-- Muted --*/
+.bg-muted {
+  background-color: $gray-300 !important;
+}
+
+.range100 { background-color: #538dd5;}.range99 { background-color: #538dd5;}.range96 { background-color: #538dd5;}.range93 { background-color: #538dd5;}.range90 { background-color: #538dd5;}.range87 { background-color: #538dd5;}.range84 { background-color: #538dd5;}.range81 { background-color: #538dd5;}.range78 { background-color: #538dd5;}.range75 { background-color: #538dd5;}.range72 { background-color: #538dd5;}
+
+.range69 { background-color: #8db4e2;}.range66 { background-color: #8db4e2;}.range63 { background-color: #8db4e2;}.range60 { background-color: #8db4e2;}.range57 { background-color: #8db4e2;}.range54 { background-color: #8db4e2;}.range51 { background-color: #8db4e2;}
+
+.range48 { background-color: #fabf8f;}.range45 { background-color: #fabf8f;}.range42 { background-color: #fabf8f;}.range39 { background-color: #fabf8f;}.range36 { background-color: #fabf8f;}.range33 { background-color: #fabf8f;}.range30 { background-color: #fabf8f;}
+
+.range27 { background-color:#e26b0a;}.range24 { background-color: #e26b0a;}.range21 { background-color: #e26b0a;}.range18 { background-color: #e26b0a;}.range15 { background-color: #e26b0a;}.range12 { background-color: #e26b0a;}.range9 { background-color: #e26b0a;}.range6 { background-color: #e26b0a;}.range3 { background-color: #e26b0a;}.range0 { background-color: #e26b0a  ;}
+
+@media (min-width: 680px) {
+  .page-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
