@@ -23,7 +23,7 @@ require_once('includes/config.php');
                 <div class="col-md-4 ">
                     <div class="card text-white bg-success">
                         <div class="card-body">
-                            <h3 id="total_invitees">14,871</h3>
+                            <h3 id="total_invitees">...</h3>
                             <p class="total-info">TOTAL INVITED</p>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ require_once('includes/config.php');
                 <div class="col-md-4">
                     <div class="card text-white bg-danger">
                         <div class="card-body">
-                            <h3 id="total_respondents">10,621</h3>
+                            <h3 id="total_respondents">...</h3>
                             <p class="total-info">TOTAL RESPONDED</p>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ require_once('includes/config.php');
                 <div class="col-md-4 ">
                     <div class="card text-white bg-primary">
                         <div class="card-body">
-                            <h3 id="total_rate">71%</h3>
+                            <h3 id="total_rate">...</h3>
                             <p class="total-info">RESPONSE RATE</p>
                         </div>
                     </div>

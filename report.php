@@ -52,7 +52,7 @@ if($school_id != -1 && $district_id != -1) {
 ?>
 <body class="dash" id="printable">
 <nav class="navbar sticky-top navbar-dark bg-dark">
-    <a class="navbar-brand" href="https://hcpsresults.asqinitiative.com"><h3><span class="year"><?php echo $year; ?></span> ASQi HCPS Survey - Home</h3></a>
+    <a class="navbar-brand" href="https://nc2012.asqnc.com"><h3><span class="year"><?php echo $year; ?></span>NC TWC Survey Results - Archived</h3></a>
 </nav
 <div class="page-wrapper">
 
@@ -63,7 +63,7 @@ if($school_id != -1 && $district_id != -1) {
             <div class="row">
                 <div class="col-sm-12">
                     <div class="page-title-box">
-                        <h3 class="page-title"><span class="year"><?php echo $year; ?></span> ASQi HCPS Survey Individual Item Analysis</h3>
+                        <h3 class="page-title"><span class="year"><?php echo $year; ?></span> NC TWC Survey Individual Item Analysis</h3>
                         <?php if($district_id != -1) { ?>
                         <h4 class="school-name">District : <?php echo $district_name; ?></h4>
                         <?php } ?>
