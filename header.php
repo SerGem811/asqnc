@@ -19,5 +19,5 @@
 	<!-- Responsive datatable examples -->
 	<link href="assets/plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" /> 
 	
-	<link href="css/custom.css" rel="stylesheet" />
+	<link href="css/custom.css?v=1.1.1" rel="stylesheet" />
 </head>

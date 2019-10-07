@@ -97,7 +97,7 @@ if($school_id != -1 && $district_id != -1) {
 <script>
     var base_url = "<?php echo BASE_URL ?>";
 </script>
-<script src="js/report.js"></script>
+<script src="js/report.js?v=1.1.1"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js"></script>
 <script src="https://kendo.cdn.telerik.com/2017.2.621/js/jszip.min.js"></script>
 <script src="https://kendo.cdn.telerik.com/2017.2.621/js/kendo.all.min.js"></script>

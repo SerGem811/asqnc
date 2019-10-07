@@ -92,6 +92,6 @@ require_once('includes/config.php');
 <script>
     var base_url = "<?php echo BASE_URL ?>";
 </script>
-<script src="js/script.js"></script>
+<script src="js/script.js?v=1.1.1"></script>
 </body>
 </html>
