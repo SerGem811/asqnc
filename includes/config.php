@@ -17,7 +17,7 @@ switch (trim($HOST)) {
 
 
 if (DEBUG == true) {
-    define('DB_DSN', 'mysql:host=localhost;dbname=dbs_asqi_16');
+    define('DB_DSN', 'mysql:host=localhost;dbname=dbs_asqi_18');
     define('DB_USER', 'root');
     define('DB_PASSWORD', '');
 
@@ -62,7 +62,7 @@ if (!isset($db)) {
 
 $year;
 if(!isset($year)) {
-	$year = 2016;
+	$year = 2018;
 }
 
 ?>
