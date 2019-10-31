@@ -115,6 +115,7 @@ function get_school_list()
                     $district_data = get_district_info($district_id, $school['district_name']);
                     array_push($ret, $district_data);
                 }
+                
 
                 $data = array();
 
@@ -651,7 +652,7 @@ function get_district_info($district_id, $district_name) {
 
         $data['district'] = $district_name;
 
-        $data['school'] = '';
+        $data['school'] = ' District report';
 
         $stmt = $db->pdo->prepare("select sum(r.invitees) as invitees, sum(r.respondents) as respondents 
                                         from tbl_rates as r left join tbl_school as s on r.school_id = s.id where r.year=".$year." and s.district_id=".$district_id);
